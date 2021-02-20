@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--使用name属性实现构造注入-->
+    <bean id="myStudent" class="com.lin.p3.Student" >
+        <constructor-arg name="myage" value="20" />
+        <constructor-arg name="mySchool" ref="myXueXiao" />
+        <constructor-arg name="myname" value="周良"/>
+    </bean>
+
+    <!--使用index属性-->
+    <bean id="myStudent2" class="com.lin.p3.Student">
+        <constructor-arg index="1" value="22" />
+        <constructor-arg index="0" value="李四" />
+        <constructor-arg index="2" ref="myXueXiao" />
+    </bean>
+
+    <!--省略index-->
+    <bean id="myStudent3" class="com.lin.p3.Student">
+        <constructor-arg  value="张强强" />
+        <constructor-arg  value="22" />
+        <constructor-arg  ref="myXueXiao" />
+    </bean>
+    <!--声明School对象-->
+    <bean id="myXueXiao" class="com.lin.p3.School">
+        <property name="name" value="清华大学"/>
+        <property name="address" value="北京的海淀区" />
+    </bean>
+
+    <!--创建File,使用构造注入-->
+    <bean id="myfile" class="java.io.File">
+        <constructor-arg name="parent" value="D:\course\JavaProjects\spring-course\ch01-hello-spring" />
+        <constructor-arg name="child" value="readme.txt" />
+    </bean>
+
+
+</beans>
