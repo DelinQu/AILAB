@@ -34,3 +34,7 @@ B站上董付国:
 - 完成B站视频Spring项目
 
 https://www.bilibili.com/video/BV1nz4y1d7uy?p=13&spm_id_from=pageDriver
+
+- 熟悉Redis框架
+
+http://www.redis.cn/
