@@ -41,9 +41,6 @@
 public class Student {
     private String name;
     private Integer age;
-    public Student() {
-        System.out.println("==student无参数构造方法===");
-    }
     public void setName(String name) {
         this.name = name;
     }
@@ -72,6 +69,35 @@ public class Student {
 
 
 ## 步骤三：注入属性
+
+### （0）配置文件注入
+
+- 加载属性配置文件
+
+```xml
+<!--加载属性配置文件-->
+<context:property-placeholder location="classpath:test.properties" />
+```
+
+- 属性文件：
+
+```properties
+# test.properties
+myname=LinXiaoDe
+myage=20
+```
+
+- 使用
+
+```java
+@Value("${myname}") //使用属性配置文件中的数据
+private String name;
+
+@Value("${myage}")  //使用属性配置文件中的数据
+private Integer age;
+```
+
+
 
 ### （1）简单类型属性注入@Value(掌握)
 
@@ -118,11 +144,9 @@ public class School {
 ```java
 @Component("myStudent")
 public class Student {
-    
-    @Value("李四" )
+    @Value("LinXiaoDe" )
     private String name;
     private Integer age;
-
     /**
      * 引用类型
      * @Autowired: spring框架提供的注解，实现引用类型的赋值。
