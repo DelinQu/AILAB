@@ -7,8 +7,7 @@
 - 大数据：
 
 ```zsh
-链接：https://pan.baidu.com/s/10hBl5nU2W1BY78eMdhSyMA 
-提取码：vun3
+链接：xxx私密，对外不公开
 ```
 
 - 后端spring
