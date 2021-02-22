@@ -39,9 +39,24 @@
 - 近几天我会把所有的**笔记以及老师要求的项目提交到git仓库**：https://github.com/LinXiaoDe/AILAB
 - 继续学习Redis
 
-![image-20210222090839061](https://i.loli.net/2021/02/22/kfX8zCn1uZSI4wD.png)
+<img src="https://i.loli.net/2021/02/22/kfX8zCn1uZSI4wD.png" alt="image-20210222090839061" style="zoom:80%;" />
 
 - **等待任务分配**
+
+
+
+
+
+## 遇到的问题
+
+- 数据问题：如何获取景点区域的人流
+  - 运营商？
+  - 爬虫？
+- 算法：
+  - 做路线推荐？
+  - 预警功能？
+
+
 
 
 
