@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9873ac09-59bb-43d4-808c-f3d595f4d513" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../9- Spring&amp;&amp;Web.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/ch03-ioc-homework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/src/main/java/com/lin/MyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/src/main/java/com/lin/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/src/main/java/com/lin/mapper/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/src/main/java/com/lin/mapper/impl/OracleDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/src/main/java/com/lin/mapper/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/src/main/java/com/lin/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/src/main/java/com/lin/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/src/test/java/com/lin/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework/ch03-ioc-homework/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/ch01-hello-spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/src/main/java/com/lin/service/HelloService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/src/main/java/com/lin/service/impl/HelloServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/src/main/resources/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/src/test/java/com/lin/MyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/target/classes/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/target/classes/com/lin/service/HelloService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/target/classes/com/lin/service/impl/HelloServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch01-hello-spring/target/test-classes/com/lin/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/ch02-di-xml.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/java/com/lin/p1/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/java/com/lin/p2/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/java/com/lin/p2/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/java/com/lin/p3/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/java/com/lin/p3/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/java/com/lin/p4/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/java/com/lin/p4/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/java/com/lin/p5/PrimarySchool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/java/com/lin/p5/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/java/com/lin/p5/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/java/com/lin/p6/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/java/com/lin/p6/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/resources/p1/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/resources/p2/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/resources/p3/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/resources/p4/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/resources/p5/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/resources/p6/spring-school.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/resources/p6/spring-student.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/main/resources/p6/total.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/test/java/com/lin/MyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/test/java/com/lin/MyTest02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/test/java/com/lin/MyTest03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/test/java/com/lin/MyTest04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/test/java/com/lin/MyTest05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/src/test/java/com/lin/MyTest06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/ba05/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/ba06/spring-school.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/ba06/spring-student.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/ba06/total.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/com/lin/p1/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/com/lin/p2/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/com/lin/p2/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/com/lin/p3/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/com/lin/p3/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/com/lin/p4/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/com/lin/p4/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/com/lin/p5/PrimarySchool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/com/lin/p5/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/com/lin/p5/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/com/lin/p6/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/com/lin/p6/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/p1/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/p2/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/p3/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/classes/p4/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/test-classes/com/lin/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/test-classes/com/lin/MyTest02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/test-classes/com/lin/MyTest03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/test-classes/com/lin/MyTest04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/test-classes/com/lin/MyTest05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch02-di-xml/target/test-classes/com/lin/MyTest06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../会议记录/qdl3.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../会议记录/qdl3.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1om0snlPlBRP3KHx4jhkgKKkCvM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../6-AopAspectj" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="JUnit.MyTest03.test01">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-aop-aspectj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lin" />
+      <option name="MAIN_CLASS_NAME" value="com.lin.MyTest01" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-aop-aspectj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lin" />
+      <option name="MAIN_CLASS_NAME" value="com.lin.MyTest02" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest02.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-aop-aspectj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lin" />
+      <option name="MAIN_CLASS_NAME" value="com.lin.MyTest02" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest03.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-aop-aspectj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lin" />
+      <option name="MAIN_CLASS_NAME" value="com.lin.MyTest03" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyTest03.test01" />
+        <item itemvalue="JUnit.MyTest02" />
+        <item itemvalue="JUnit.MyTest02.test01" />
+        <item itemvalue="JUnit.MyTest01.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9873ac09-59bb-43d4-808c-f3d595f4d513" name="Default Changelist" comment="" />
+      <created>1613876668005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613876668005</updated>
+      <workItem from="1613876669150" duration="875000" />
+      <workItem from="1613892368758" duration="5604000" />
+      <workItem from="1614259920034" duration="131000" />
+      <workItem from="1614260072375" duration="25000" />
+      <workItem from="1614260171923" duration="179000" />
+      <workItem from="1614264783983" duration="104000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

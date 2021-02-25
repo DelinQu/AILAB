@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--把对象交给spring容器，由spring容器统一创建，管理对象-->
+    <!--声明目标对象-->
+<!--    <context:component-scan base-package="com.lin.p1"/>-->
+
+<!--    <bean id="someService" class="com.lin.p1.SomeServiceImpl" />-->
+<!--    <bean id="someService" class="com.lin.p2.SomeServiceImpl" />-->
+    <bean id="someService" class="com.lin.p3.SomeServiceImpl" />
+<!--    <bean id="someService" class="com.lin.p4.SomeServiceImpl" />-->
+<!--    <bean id="someService" class="com.lin.p5.SomeServiceImpl" />-->
+<!--    <bean id="someService" class="com.lin.p6.SomeServiceImpl" />-->
+<!--    <bean id="someService" class="com.lin.p7.SomeServiceImpl" />-->
+<!--    <bean id="someService" class="com.lin.p8.SomeServiceImpl" />-->
+
+    <!--声明切面类对象-->
+<!--    <bean id="myAspect" class="com.lin.p1.MyAspect" />-->
+<!--    <bean id="myAspect" class="com.lin.p2.MyAspect" />-->
+    <bean id="myAspect" class="com.lin.p3.MyAspect" />
+<!--    <bean id="myAspect" class="com.lin.p4.MyAspect" />-->
+<!--    <bean id="myAspect" class="com.lin.p5.MyAspect" />-->
+<!--    <bean id="myAspect" class="com.lin.p6.MyAspect" />-->
+<!--    <bean id="myAspect" class="com.lin.p7.MyAspect" />-->
+<!--    <bean id="myAspect" class="com.lin.p8.MyAspect" />-->
+
+    <!--声明自动代理生成器：使用aspectj框架内部的功能，创建目标对象的代理对象。
+        创建代理对象是在内存中实现的， 修改目标对象的内存中的结构。 创建为代理对象
+        所以目标对象就是被修改后的代理对象.
+
+        aspectj-autoproxy:会把spring容器中的所有的目标对象，一次性都生成代理对象。
+    -->
+    <!--<aop:aspectj-autoproxy />-->
+
+
+    <!--
+       如果你期望目标类有接口，使用cglib代理
+       proxy-target-class="true":告诉框架，要使用cglib动态代理
+    -->
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+</beans>
